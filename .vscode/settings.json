@@ -17,5 +17,20 @@
     "--background-index",
     "--query-driver=C:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20241119\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe",
     "--compile-commands-dir=c:\\projects\\ESP\\hello_world\\build"
-  ]
+  ],
+  "files.associations": {
+    "esp_timer.h": "c",
+    "esp_chip_info.h": "c",
+    "wizchip_spi.h": "c",
+    "inttypes.h": "c",
+    "spi_master.h": "c",
+    "compare": "c",
+    "cstdint": "c",
+    "wizchip_conf.h": "c",
+    "gpio.h": "c",
+    "task.h": "c",
+    "bitset": "c",
+    "string_view": "c",
+    "regex": "c"
+  }
 }

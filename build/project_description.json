@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "wizchip_TEST",
-    "project_version":    "1",
+    "project_version":    "e197055-dirty",
     "project_path":       "C:/projects/ESP/hello_world",
     "idf_path":           "C:/Users/lihan/esp/v5.5.1/esp-idf",
     "build_dir":          "C:/projects/ESP/hello_world/build",
@@ -700,8 +700,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "C:/projects/ESP/hello_world/build/esp-idf/main/libmain.a",
-            "sources": [ "C:/projects/ESP/hello_world/main/wizchip_TEST.c" ],
-            "include_dirs": []
+            "sources": [ "C:/projects/ESP/hello_world/main/wizchip_TEST.c", "C:/projects/ESP/hello_world/port/ioLibrary_Driver/src/wizchip_spi.c", "C:/projects/ESP/hello_world/lib/ioLibrary_Driver/Ethernet/wizchip_conf.c", "C:/projects/ESP/hello_world/lib/ioLibrary_Driver/Ethernet/socket.c", "C:/projects/ESP/hello_world/lib/ioLibrary_Driver/Ethernet/W5500/w5500.c", "C:/projects/ESP/hello_world/lib/ioLibrary_Driver/Application/loopback/loopback.c" ],
+            "include_dirs": [ "../lib/ioLibrary_Driver/Ethernet", "../lib/ioLibrary_Driver/Ethernet/W5500", "../lib/ioLibrary_Driver/Internet", "../lib/ioLibrary_Driver/Application", "../lib/ioLibrary_Driver/Application/loopback", "../port/ioLibrary_Driver/inc" ]
         },
         "mbedtls": {
             "alias": "idf::mbedtls",
@@ -2131,7 +2131,7 @@
             "priv_reqs": [ "spi_flash", "driver", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": []
+            "include_dirs": [ "../lib/ioLibrary_Driver/Ethernet", "../lib/ioLibrary_Driver/Ethernet/W5500", "../lib/ioLibrary_Driver/Internet", "../lib/ioLibrary_Driver/Application", "../lib/ioLibrary_Driver/Application/loopback", "../port/ioLibrary_Driver/inc" ]
         }
     },
     "debug_prefix_map_gdbinit": "",
